@@ -1,0 +1,9 @@
+# TimesFNP 依赖 (Python 3.10, Windows/Linux 均可)
+# GPU 训练: torch 2.5.1+cu121 (NVIDIA CUDA 12.1);
+#   CUDA 版安装命令 (PyTorch 官方源):
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#   无 GPU 时 CPU 版亦可运行 (pip install torch==2.5.1), 训练变慢但结果一致
+torch==2.5.1
+numpy==2.2.6
+pandas==2.3.3
+openpyxl>=3.1.0    # data/extract_macro.py 读取 Goyal xlsx 需要

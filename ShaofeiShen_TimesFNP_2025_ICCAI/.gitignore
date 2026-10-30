@@ -1,0 +1,11 @@
+# 数据 (体积大, 通过 README 中的链接获取)
+data/raw/
+data/processed/
+*.parts/
+# 模型权重与训练输出
+checkpoints/
+results/logs/
+# 环境与缓存
+.venv/
+__pycache__/
+*.pyc
